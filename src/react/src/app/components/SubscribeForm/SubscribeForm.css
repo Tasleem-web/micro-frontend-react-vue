@@ -1,0 +1,64 @@
+h1 {
+    color: #999999;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    margin: 100px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 1em;
+}
+
+label {
+    width: 100%;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 10px;
+}
+
+input {
+    margin: 10px;
+}
+
+input[type='email'] {
+    width: 100%;
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #000;
+}
+
+.button {
+    background-color: #fff;
+    border: 1 solid #1f2020;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    width: 150px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 100px;
+    float: right;
+}
+
+.button:hover {
+    background-color: #39393a;
+    color: #fff;
+}
+
+.button:disabled,
+.button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}

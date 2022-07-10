@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
-import Home from './root.component.js';
+import Home from './src/App.js';
 
 function domElementGetter() {
   return document.getElementById("react")
