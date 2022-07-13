@@ -1,4 +1,6 @@
 import { registerApplication, start } from 'single-spa'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap";
 
 registerApplication(
   'vue', 

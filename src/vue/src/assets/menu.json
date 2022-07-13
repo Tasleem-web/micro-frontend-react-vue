@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Home",
+        "path": "/",
+        "active": true
+    },
+    {
+        "name": "Product Configuration",
+        "path": "/product/configuration",
+        "active": false
+    }
+]
